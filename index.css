@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+#umumi{
+
+	width: 400px;
+	height: 400px;
+	margin: 100px auto;
+	position: relative;
+	border-radius: 50%;
+	background-image: url(photos/saat2.png);
+	background-size: 100% 100%;
+	background-color: darkorange;
+
+}
+.cls{
+
+	position: absolute;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	transform-origin: bottom;
+
+}
+
+/* #mcs{
+
+	top: 10px;
+	left:198.25px;
+	width: 2.5px;
+	height: 190px;
+	background-color: yellow;
+
+} */
+
+#saniye{
+
+	top: 25px;
+	left:197.5px;
+	width: 5px;
+	height: 175px;
+	background-color: blue;
+	z-index: 5;
+
+}
+
+#deqiqe{
+
+	top:45px;
+	left:195px; 
+	width: 10px;
+	height: 155px;
+	background-color: red;
+	z-index: 4;
+
+}
+
+#saat{
+
+	top:70px;
+	left:192.5px;
+	width: 15px;
+	height: 130px;
+	background-color: green;
+
+}
+#center{
+
+	position: absolute;
+	border-radius: 50%;
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	top:192.5px;
+	left:192.5px;
+	z-index: 7;
+
+}
